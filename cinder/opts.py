@@ -254,6 +254,7 @@ def list_opts():
                 cinder_volume_driver.iser_opts,
                 cinder_volume_drivers_datacore_driver.datacore_opts,
                 cinder_volume_drivers_datacore_iscsi.datacore_iscsi_opts,
+                cinder_volume_drivers_datera_dateraiscsi.d_opts,
                 cinder_volume_drivers_inspur_instorage_instoragecommon.
                 instorage_mcs_opts,
                 cinder_volume_drivers_inspur_instorage_instorageiscsi.
@@ -282,7 +283,6 @@ def list_opts():
                 cinder_volume_driver.iser_opts,
                 cinder_volume_drivers_coprhd_common.volume_opts,
                 cinder_volume_drivers_coprhd_scaleio.scaleio_opts,
-                cinder_volume_drivers_datera_dateraiscsi.d_opts,
                 cinder_volume_drivers_dell_emc_ps.eqlx_opts,
                 cinder_volume_drivers_dell_emc_sc_storagecentercommon.
                 common_opts,
