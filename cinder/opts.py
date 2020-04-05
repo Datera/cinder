@@ -260,6 +260,7 @@ def list_opts():
                 cinder_volume_driver.image_opts,
                 cinder_volume_drivers_datacore_driver.datacore_opts,
                 cinder_volume_drivers_datacore_iscsi.datacore_iscsi_opts,
+                cinder_volume_drivers_datera_dateraiscsi.d_opts,
                 cinder_volume_drivers_fusionstorage_dsware.volume_opts,
                 cinder_volume_drivers_inspur_as13000_as13000driver.
                 inspur_as13000_opts,
@@ -294,7 +295,6 @@ def list_opts():
                 cinder_volume_driver.nvmet_opts,
                 cinder_volume_driver.scst_opts,
                 cinder_volume_driver.image_opts,
-                cinder_volume_drivers_datera_dateraiscsi.d_opts,
                 cinder_volume_drivers_dell_emc_powermax_common.powermax_opts,
                 cinder_volume_drivers_dell_emc_ps.eqlx_opts,
                 cinder_volume_drivers_dell_emc_sc_storagecentercommon.

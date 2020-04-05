@@ -53,3 +53,6 @@ websocket-client>=0.32.0 # LGPLv2+
 
 # Storpool
 storpool # Apache-2.0
+
+# Datera
+dfs_sdk>=1.2.25 # Apache-2.0
