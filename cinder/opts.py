@@ -258,6 +258,7 @@ def list_opts():
                 cinder_volume_driver.scst_opts,
                 cinder_volume_driver.backup_opts,
                 cinder_volume_driver.image_opts,
+                cinder_volume_drivers_datera_dateraiscsi.d_opts,
                 cinder_volume_drivers_fusionstorage_dsware.volume_opts,
                 cinder_volume_drivers_infortrend_raidcmd_cli_commoncli.
                 infortrend_opts,
@@ -295,7 +296,6 @@ def list_opts():
                 cinder_volume_driver.nvmet_opts,
                 cinder_volume_driver.scst_opts,
                 cinder_volume_driver.image_opts,
-                cinder_volume_drivers_datera_dateraiscsi.d_opts,
                 cinder_volume_drivers_dell_emc_powermax_common.powermax_opts,
                 cinder_volume_drivers_dell_emc_ps.eqlx_opts,
                 cinder_volume_drivers_dell_emc_sc_storagecentercommon.
